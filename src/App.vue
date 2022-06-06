@@ -4,9 +4,9 @@ import FooterComp from "@/components/template/FooterComp.vue";
 </script>
 
 <template>
-  <FooterComp />
   <header-comp />
   <RouterView />
+  <Footer-comp />
 </template>
 
 <style>
@@ -19,7 +19,6 @@ body {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
   height: 100vh;
 }
@@ -36,5 +35,4 @@ a {
 .router-link-active {
   color: #98b7e1;
 }
-
 </style>

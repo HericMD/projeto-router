@@ -1,6 +1,5 @@
 <template>
 <footer>Rodapé</footer>
-<RouterView />
 </template>
 
 <style>
